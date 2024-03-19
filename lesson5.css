@@ -1,0 +1,21 @@
+div.center{
+    width:200px ;
+    height:200px ;
+    background-color: blue;
+    border: 4 px;
+
+
+
+    text-align:center;
+    line-height:center;
+}
+.box{
+    background-color: red;
+}
+h1.center {
+    text-shadow:5px 7px 7px  grey#666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    
+}

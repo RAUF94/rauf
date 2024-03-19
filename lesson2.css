@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+    
+}
+
+.porshe merkezi {
+    margin-top:25px;
+}
+.porshe merkezi {
+    font-weight: bold;
+    color: rgba(106, 0, 255, 0.455);
+    text-align: left
+}
+.porshe merkezi1 {
+    width: 40%;
+    padding: 20px;
+    border-radius:10px;
+    margin: 5px;
+    background-color:  rgba(255, 106, 0, 0.999);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    font-size: 16px;
+}
+.porshe merkezi2 {
+    width: 40%;
+    padding: 20px;
+    border-radius:10px;
+    margin: 5px;
+    background-color:  rgba(0, 255, 213, 0.999);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    font-size: 16px;
+}
+.porshe merkezi{border-radius: 5px;
+    background-color: rgb(204, 255, 0);
+    width: 40%;}
+
+    table , th, td {
+        border: 1px solid black;
+        width: 200;
+    }

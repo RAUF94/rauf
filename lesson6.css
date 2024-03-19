@@ -1,0 +1,16 @@
+.box{
+    width:400px;
+    height:200px;
+    background-color: bisque;
+    margin: auto;
+    text-align: center;
+    line-height: 200px;
+    display:inline-block;
+    visibility: visible;
+    }
+    body{
+        height:100vh
+        }
+    .box,.box2,.box3{
+        width:300px
+    }

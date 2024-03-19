@@ -1,0 +1,232 @@
+.tolt {
+    position: relative;
+    display: inline-block;
+    border-bottom: 5px dotted red;
+}
+.tolt .tooltiptext{
+    visibility: hidden;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding: auto;
+    position: absolute;
+    z-index: -1;
+
+}
+.tolt:hover .tooltiptext{
+    visibility: visible;
+}
+button {
+    background-color: #a7af4c;
+    border: none;
+
+    color: whitesmoke;
+    padding: 20px 30px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 3px;
+
+    cursor: pointer;
+}
+
+.button2 {background-color: blue;}
+
+.button3 {background-color: red;} 
+.button4 {background-color: green; color: black;}
+
+.button5 {background-color: blueviolet;}
+
+
+.button {
+    background-color: red; 
+    border: none;
+    color: whitesmoke;
+
+    padding: 20px 30px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+    margin: 6px 4px;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.but1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid blueviolet;
+}
+
+.but1:hover {
+    background-color:m yellow;
+    color: grey;
+}
+.vampir {
+    background-color: red;
+    border: none;
+    color: black;
+
+    padding: 20px 30px;
+    text-align: center;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 3px;
+
+    cursor: pointer;
+
+    transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.porshe .button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.porshe .button:hover {
+    background-color: red;
+}
+
+
+
+.btn-diog .button {
+    background-color: blue;
+    border: 1px solid  blueviolet;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+    display: block;
+}
+
+.btn-diog .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-diog .button:hover {
+    background-color: red}
+
+
+    .hov {
+        display: inline-block;
+        border-radius: 5px;
+        background-color: blue;
+        border: none;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        width: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .hov span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .hov span:after {
+        
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .hov:hover span {
+        padding-right: 25px;
+      }
+      
+      .hov:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      .basmaq {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 30px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: whitesmoke;
+        background-color: yellowgreen;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 6px grey;
+      }
+      
+      .bas:hover {background-color: blueviolet}
+      
+      .bas:active {
+        background-color: red;
+        box-shadow: 0 5px brown;
+        transform: translateY(5px) }
+
+
+
+
+
+        .agiliol {
+            position: relative;
+            background-color: gold;
+            border: none;
+            font-size: 230px;
+            color:whitesmoke;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+            transition-duration: 0.5s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .agili:after {
+           
+            background: gray;
+            display: block;
+            position: absolute;
+            padding-top: 250%;
+            padding-left: 200%;
+            margin-left: -15px !important;
+            margin-top: -100%;
+            opacity: 0;
+            transition: all 0.6s
+        }
+        
+        .agili:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+        }
+
+

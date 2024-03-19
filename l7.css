@@ -1,0 +1,240 @@
+.bar {
+    background-image:url(/rainbow-kol.jpg);
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 2%;
+    /* margin-top: center; */
+    /* width: 500px;
+    height: 100px; */   
+    display:flex ;
+    
+}
+.navbar-collapse{
+   display:flex ;
+   justify-content: right;
+    
+}
+ul {
+    
+    list-style-type: none;
+    
+    /* margin: 2%;
+    padding: 2%; */
+    overflow: hidden;
+    background-color: #333;
+    right: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  .form-inline{
+    width: 10px;
+    height: 10px;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .acil{
+    background-image:url(/emblem\ trd-pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    height: 100vh;
+    border-radius: 10%;
+    margin-top: 2%;
+    
+    color: red;
+  }
+  .acil h1{
+    line-height: 160px;
+    padding-bottom: 0;
+  }
+  .acil p{
+    margin-top: -80px;
+    
+  }
+  
+
+  .hero_area{
+    width: 100%;
+  }
+  .contact_nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 29, 83);
+    width: 100%;
+color: aliceblue;
+  }
+  body{
+    background-color: grey;
+  }
+
+  .contact_nav a{
+    color: aliceblue;
+  }
+  .navbar-brand{
+    color:red;
+  }
+  .container1{
+    float: right;}
+    
+    
+  
+  .container3{
+    right: 600px;
+    float: right;
+    vertical-align: top;
+    position: top;
+  }
+  .container3{
+    transform: translate(-70px);
+   
+    
+  }
+  .revenant{
+    background-image:url(/4RunnerTRDPro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    height: 80vh;
+    border-radius: 10%;
+    margin-top: 2%;
+    
+    color: red;
+    
+
+  }
+  .button {
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;}
+    
+  
+  .revenant2{
+    background-image:url(/TRD4x4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    height: 80vh;
+    border-radius: 10%;
+    margin-top: 2%;
+    
+    color: red;
+
+  }
+  
+ 
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: linear-gradient(right,grey,red,black,);
+  }
+  .container5{
+    width:100% ;
+    height: 100vh;
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    flex-direction:column;
+    transition: none;
+
+    
+    
+
+  }
+  h1{
+    color:#f4511e;
+    text-shadow: #111;
+    gap: 50px;
+  }
+  iframe{
+    width: 80vh;
+    height: 60vh;
+  }
+.but25{
+  background-color: aliceblue;
+  border:2px solid;
+  color:#333;
+
+  padding:10px 20px;
+  text-align: center;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+
+  margin:5px 10px;
+  transition-duration: 0.4;
+  cursor: pointer;
+
+
+
+}
+.but25{
+  background-color: #f4511e;
+  color:#161515
+
+}
+
+.container5{
+  position: absolute;
+  display: flex;
+  left: 100px;
+
+
+}
+
+
+      
+  
